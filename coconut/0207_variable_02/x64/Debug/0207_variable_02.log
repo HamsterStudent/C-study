@@ -1,0 +1,3 @@
+﻿  variable.c
+D:\●portfolio●\2023\c\coconut\0207_variable_02\variable.c(22,8): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  0207_variable_02.vcxproj -> D:\●portfolio●\2023\c\coconut\x64\Debug\0207_variable_02.exe
