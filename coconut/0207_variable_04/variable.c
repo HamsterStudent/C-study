@@ -4,8 +4,7 @@ int main() {
 	// short, long, int, long long int, unsigned short, unsigned long, unsigned int, unsigned long long int
 	// float, double
 	// char, unsigned char
-	// 위의 각 타입의 변수를 만들고
-	// 각 변수에 해당 데이타 타입의 한계값을 저장하신 후에 출력해보세요...
+
 
 	short minShort = -32768;
 	short maxShort = 32767;
