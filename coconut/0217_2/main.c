@@ -12,10 +12,10 @@ int main() {
 	// int값을 저장하고 있는 공간의 주소값
 	// 이 변수 또한 램메모리에 저장됨(이녀석도 자기의 주소값 가지고있음)
 	// 데이터 타입에 사용하는 *(에스터리스크)는 포인터 형지정자
-	int *pointerA = &a;
+	int *pa = &a;
 
 	// int***가 int**의 주소값
-	int **ppa = &pointerA;
+	int **ppa = &pa;
 
 	// 주소값 앞에 사용하는 *는 포인터 연산자
 	// 포인터 연산자? : 주소값에 할당받은 공간을 칭함.
@@ -29,10 +29,10 @@ int main() {
 	// 표기법만 틀릴 뿐 같은 주소값을 가리킴
 	
 	printf("&**ppa = %d, &**&pa = %d, &*pa = %d, &*&a = %d, &a = %d\n",
-		&**ppa, &**&pointerA, &*pointerA, &*&a, &a);
+		&**ppa, &**&pa, &*pa, &*&a, &a);
 
 	printf("**ppa = %d, **&pa = %d, *pa = %d, *&a = %d, a = %d\n",
-		**ppa, **&pointerA, *pointerA, *&a, a);
+		**ppa, **&pa, *pa, *&a, a);
 
 
 	// int****
