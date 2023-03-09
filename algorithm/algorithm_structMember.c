@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -44,7 +45,7 @@ int main(){
     int inputValue = 0;
     printf("처리하실 학생 수를 입력 : ");
     scanf("%d", &inputValue);
-    Student* pst = (int*)calloc(5, sizeof(Student));
+    Student* pst = (int*)calloc(inputValue, sizeof(Student));
 
     for(int i = 0; i< inputValue; i++){
         printf("%d번째 학생 정보를 입력하세요: (이름 나이 학년) ", i + 1);
