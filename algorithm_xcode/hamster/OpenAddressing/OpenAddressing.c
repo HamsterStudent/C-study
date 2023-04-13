@@ -30,6 +30,7 @@ void OAHT_Set(HashTable** HT, KeyType Key, ValueType Value){
     while((*HT)->Table[Address].Status != EMPTY &&
           strcmp((*HT)->Table[Address].Key, Key) != 0){
         printf("Collision occured! : Key(%s), Address(%d), StepSize(%d)\n", Key, Address, StepSize);
+        
         Address = (Address + StepSize) % (*HT)->TableSize;
     }
     (*HT)->Table[Address].Key = (char*)malloc(sizeof(char) * (KeyLen + 1));
@@ -38,6 +39,7 @@ void OAHT_Set(HashTable** HT, KeyType Key, ValueType Value){
     (*HT)->Table[Address].Value = (char*)malloc(sizeof(char) * (strlen(Value) + 1) );
     strcpy((*HT)->Table[Address].Value, Value);
     
+    (*HT)->Table[Address].Status = OCCUPIED;
     (*HT)->OccupiedCount++;
     
     printf("Key(%s) entered at address(%d)\n", Key, Address);
