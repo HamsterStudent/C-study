@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D8F02B229E50E9D006EC520 /* PriorityQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D8F02B129E50E9D006EC520 /* PriorityQueue.c */; };
-		3D8F02B429E514D7006EC520 /* Test_PriorityQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D8F02B329E514D7006EC520 /* Test_PriorityQueue.c */; };
+		3D0C25A229E7B02400EE8F75 /* OpenAddressing.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C25A129E7B02400EE8F75 /* OpenAddressing.c */; };
+		3D0C25A429E7B87800EE8F75 /* Test_OpenAddressing.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C25A329E7B87800EE8F75 /* Test_OpenAddressing.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D0C25A029E7B02400EE8F75 /* OpenAddressing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenAddressing.h; sourceTree = "<group>"; };
+		3D0C25A129E7B02400EE8F75 /* OpenAddressing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OpenAddressing.c; sourceTree = "<group>"; };
+		3D0C25A329E7B87800EE8F75 /* Test_OpenAddressing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_OpenAddressing.c; sourceTree = "<group>"; };
 		3D2A5EBF29D28D6B00B85973 /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
 		3D2A5EC229D2A86300B85973 /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
 		3D2ED22629C075BC004DE1E1 /* ArrayStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
@@ -69,6 +72,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0C259F29E7B00A00EE8F75 /* OpenAddressing */ = {
+			isa = PBXGroup;
+			children = (
+				3D0C25A029E7B02400EE8F75 /* OpenAddressing.h */,
+				3D0C25A129E7B02400EE8F75 /* OpenAddressing.c */,
+				3D0C25A329E7B87800EE8F75 /* Test_OpenAddressing.c */,
+			);
+			path = OpenAddressing;
+			sourceTree = "<group>";
+		};
 		3D2A5EBD29D28D4F00B85973 /* QuickSort */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +172,7 @@
 		3DAD6A5B29BE132E0021FDF4 = {
 			isa = PBXGroup;
 			children = (
+				3D0C259F29E7B00A00EE8F75 /* OpenAddressing */,
 				3D8F02AF29E50E5F006EC520 /* PriorityQueue */,
 				3D772F3929DE7DCF00477CB6 /* BinarySearchTree */,
 				3D772F3329DE6B4800477CB6 /* BinarySearch */,
@@ -268,8 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8F02B229E50E9D006EC520 /* PriorityQueue.c in Sources */,
-				3D8F02B429E514D7006EC520 /* Test_PriorityQueue.c in Sources */,
+				3D0C25A229E7B02400EE8F75 /* OpenAddressing.c in Sources */,
+				3D0C25A429E7B87800EE8F75 /* Test_OpenAddressing.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
