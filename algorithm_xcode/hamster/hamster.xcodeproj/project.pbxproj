@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D0C25A229E7B02400EE8F75 /* OpenAddressing.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C25A129E7B02400EE8F75 /* OpenAddressing.c */; };
-		3D0C25A429E7B87800EE8F75 /* Test_OpenAddressing.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C25A329E7B87800EE8F75 /* Test_OpenAddressing.c */; };
+		3D0196E229EC200F0070DAF1 /* Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D0196E129EC200F0070DAF1 /* Graph.c */; };
+		3D0196E429EC25D20070DAF1 /* Test_Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D0196E329EC25D20070DAF1 /* Test_Graph.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D0196E029EC200F0070DAF1 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		3D0196E129EC200F0070DAF1 /* Graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Graph.c; sourceTree = "<group>"; };
+		3D0196E329EC25D20070DAF1 /* Test_Graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_Graph.c; sourceTree = "<group>"; };
 		3D0C25A029E7B02400EE8F75 /* OpenAddressing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenAddressing.h; sourceTree = "<group>"; };
 		3D0C25A129E7B02400EE8F75 /* OpenAddressing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OpenAddressing.c; sourceTree = "<group>"; };
 		3D0C25A329E7B87800EE8F75 /* Test_OpenAddressing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_OpenAddressing.c; sourceTree = "<group>"; };
@@ -72,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0196DF29EC1FFB0070DAF1 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				3D0196E029EC200F0070DAF1 /* Graph.h */,
+				3D0196E129EC200F0070DAF1 /* Graph.c */,
+				3D0196E329EC25D20070DAF1 /* Test_Graph.c */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 		3D0C259F29E7B00A00EE8F75 /* OpenAddressing */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +185,7 @@
 		3DAD6A5B29BE132E0021FDF4 = {
 			isa = PBXGroup;
 			children = (
+				3D0196DF29EC1FFB0070DAF1 /* Graph */,
 				3D0C259F29E7B00A00EE8F75 /* OpenAddressing */,
 				3D8F02AF29E50E5F006EC520 /* PriorityQueue */,
 				3D772F3929DE7DCF00477CB6 /* BinarySearchTree */,
@@ -282,8 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0C25A229E7B02400EE8F75 /* OpenAddressing.c in Sources */,
-				3D0C25A429E7B87800EE8F75 /* Test_OpenAddressing.c in Sources */,
+				3D0196E429EC25D20070DAF1 /* Test_Graph.c in Sources */,
+				3D0196E229EC200F0070DAF1 /* Graph.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
