@@ -6,11 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3D0196E229EC200F0070DAF1 /* Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D0196E129EC200F0070DAF1 /* Graph.c */; };
-		3D0196E429EC25D20070DAF1 /* Test_Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D0196E329EC25D20070DAF1 /* Test_Graph.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		3DAD6A6229BE132E0021FDF4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,6 +30,7 @@
 		3D2ED22629C075BC004DE1E1 /* ArrayStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
 		3D2ED22729C075BC004DE1E1 /* ArrayStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayStack.c; sourceTree = "<group>"; };
 		3D2ED22929C0794C004DE1E1 /* Test_ArrayStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_ArrayStack.c; sourceTree = "<group>"; };
+		3D42FAE929ED64EF0098FF17 /* Test_Graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_Graph.c; sourceTree = "<group>"; };
 		3D53F00429CAEC4300B43F03 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		3D53F00529CAEC4300B43F03 /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTree.c; sourceTree = "<group>"; };
 		3D53F00729CAEF6000B43F03 /* Test_BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_BinaryTree.c; sourceTree = "<group>"; };
@@ -121,6 +117,14 @@
 			path = ArrayStack;
 			sourceTree = "<group>";
 		};
+		3D42FAE829ED64CB0098FF17 /* Graph_array */ = {
+			isa = PBXGroup;
+			children = (
+				3D42FAE929ED64EF0098FF17 /* Test_Graph.c */,
+			);
+			path = Graph_array;
+			sourceTree = "<group>";
+		};
 		3D53F00329CAEC2200B43F03 /* BinaryTree */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +189,7 @@
 		3DAD6A5B29BE132E0021FDF4 = {
 			isa = PBXGroup;
 			children = (
+				3D42FAE829ED64CB0098FF17 /* Graph_array */,
 				3D0196DF29EC1FFB0070DAF1 /* Graph */,
 				3D0C259F29E7B00A00EE8F75 /* OpenAddressing */,
 				3D8F02AF29E50E5F006EC520 /* PriorityQueue */,
@@ -296,8 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0196E429EC25D20070DAF1 /* Test_Graph.c in Sources */,
-				3D0196E229EC200F0070DAF1 /* Graph.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
