@@ -6,6 +6,13 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3DD90C3E29EE3CF600C2242A /* GraphTraversal.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD90C3D29EE3CF600C2242A /* GraphTraversal.c */; };
+		3DD90C4229EE3FC200C2242A /* Test_GraphTraversal.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD90C4129EE3FC200C2242A /* Test_GraphTraversal.c */; };
+		3DD90C4429EE412E00C2242A /* Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD90C4329EE412E00C2242A /* Graph.c */; };
+		3DD90C4629EE415100C2242A /* LinkedQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD90C4529EE415100C2242A /* LinkedQueue.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		3DAD6A6229BE132E0021FDF4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -54,6 +61,13 @@
 		3DAD6A6E29BE13750021FDF4 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		3DAD6A6F29BE13750021FDF4 /* LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
 		3DAD6A7129BE13B70021FDF4 /* Test_LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_LinkedList.c; sourceTree = "<group>"; };
+		3DD90C3C29EE3CF600C2242A /* GraphTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphTraversal.h; sourceTree = "<group>"; };
+		3DD90C3D29EE3CF600C2242A /* GraphTraversal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GraphTraversal.c; sourceTree = "<group>"; };
+		3DD90C3F29EE3D9A00C2242A /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		3DD90C4029EE3DCB00C2242A /* LinkedQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedQueue.h; sourceTree = "<group>"; };
+		3DD90C4129EE3FC200C2242A /* Test_GraphTraversal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_GraphTraversal.c; sourceTree = "<group>"; };
+		3DD90C4329EE412E00C2242A /* Graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Graph.c; sourceTree = "<group>"; };
+		3DD90C4529EE415100C2242A /* LinkedQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedQueue.c; sourceTree = "<group>"; };
 		3DDFCA1529C9596E00B06361 /* LCRSTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCRSTree.h; sourceTree = "<group>"; };
 		3DDFCA1629C9596E00B06361 /* LCRSTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCRSTree.c; sourceTree = "<group>"; };
 		3DDFCA1829C95CFC00B06361 /* Test_LCRSTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_LCRSTree.c; sourceTree = "<group>"; };
@@ -189,6 +203,7 @@
 		3DAD6A5B29BE132E0021FDF4 = {
 			isa = PBXGroup;
 			children = (
+				3DD90C3B29EE3CD200C2242A /* GraphTraversal */,
 				3D42FAE829ED64CB0098FF17 /* Graph_array */,
 				3D0196DF29EC1FFB0070DAF1 /* Graph */,
 				3D0C259F29E7B00A00EE8F75 /* OpenAddressing */,
@@ -224,6 +239,20 @@
 				3DAD6A6F29BE13750021FDF4 /* LinkedList.c */,
 			);
 			path = hamster;
+			sourceTree = "<group>";
+		};
+		3DD90C3B29EE3CD200C2242A /* GraphTraversal */ = {
+			isa = PBXGroup;
+			children = (
+				3DD90C3C29EE3CF600C2242A /* GraphTraversal.h */,
+				3DD90C3D29EE3CF600C2242A /* GraphTraversal.c */,
+				3DD90C3F29EE3D9A00C2242A /* Graph.h */,
+				3DD90C4029EE3DCB00C2242A /* LinkedQueue.h */,
+				3DD90C4129EE3FC200C2242A /* Test_GraphTraversal.c */,
+				3DD90C4329EE412E00C2242A /* Graph.c */,
+				3DD90C4529EE415100C2242A /* LinkedQueue.c */,
+			);
+			path = GraphTraversal;
 			sourceTree = "<group>";
 		};
 		3DDFCA1129C950C000B06361 /* tree */ = {
@@ -301,6 +330,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD90C4429EE412E00C2242A /* Graph.c in Sources */,
+				3DD90C3E29EE3CF600C2242A /* GraphTraversal.c in Sources */,
+				3DD90C4629EE415100C2242A /* LinkedQueue.c in Sources */,
+				3DD90C4229EE3FC200C2242A /* Test_GraphTraversal.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
