@@ -64,12 +64,12 @@ int main(void){
     Prim(graph, B, PrimMST);
     PrintGraph(PrimMST);
     
-//    printf("Kruskal's Algorithm...\n");
-//    Kruskal(graph, KruskalMST);
-//    PrintGraph(KruskalMST);
+    printf("Kruskal's Algorithm...\n");
+    Kruskal(graph, KruskalMST);
+    PrintGraph(KruskalMST);
     
     DestroyGraph(PrimMST);
-//    DestroyGraph(KruskalMST);
+    DestroyGraph(KruskalMST);
     DestroyGraph(graph);
     
     return 0;
