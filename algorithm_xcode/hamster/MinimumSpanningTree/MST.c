@@ -88,6 +88,7 @@ void Kruskal(Graph* G, Graph* MST){
     
     i = 0;
     CurrentVertex = G->Vertices;
+    // 각 정점의 주소를 VertexSet에 넣는 작업
     while(CurrentVertex != NULL){
         Edge* CurrentEdge;
         
@@ -96,6 +97,7 @@ void Kruskal(Graph* G, Graph* MST){
         AddVertex(MST, MSTVertices[i]);
         
         CurrentEdge = CurrentVertex->AdjacencyList;
+        // 정점에 이어진 간선정보를 죄다 큐에 넣는 작업
         while(CurrentEdge != NULL){
             PQNode NewNode = {CurrentEdge->Weight, CurrentEdge};
             PQ_Enqueue(PQ, NewNode);

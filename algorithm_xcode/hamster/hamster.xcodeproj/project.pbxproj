@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D73BE5929F124DF00B39332 /* MST.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D73BE5829F124DF00B39332 /* MST.c */; };
-		3D73BE5B29F12D3900B39332 /* Test_MST.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D73BE5A29F12D3900B39332 /* Test_MST.c */; };
-		3D73BE5E29F1344700B39332 /* PriorityQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D73BE5D29F1344700B39332 /* PriorityQueue.c */; };
-		3D73BE6129F1346D00B39332 /* Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D73BE6029F1346D00B39332 /* Graph.c */; };
-		3D73BE6429F135EE00B39332 /* DisjointSet.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D73BE6329F135EE00B39332 /* DisjointSet.c */; };
+		3DC85A8F29F8E16A0091697F /* KnuthMorrisPratt.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DC85A8E29F8E16A0091697F /* KnuthMorrisPratt.c */; };
+		3DC85A9129F8E2F80091697F /* Test_KnuthMorrisPratt.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DC85A9029F8E2F80091697F /* Test_KnuthMorrisPratt.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +39,13 @@
 		3D53F00429CAEC4300B43F03 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		3D53F00529CAEC4300B43F03 /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTree.c; sourceTree = "<group>"; };
 		3D53F00729CAEF6000B43F03 /* Test_BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_BinaryTree.c; sourceTree = "<group>"; };
+		3D662CA029F6371700B4FA15 /* ShortesPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShortesPath.h; sourceTree = "<group>"; };
+		3D662CA129F6371700B4FA15 /* ShortesPath.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShortesPath.c; sourceTree = "<group>"; };
+		3D662CA329F637D500B4FA15 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		3D662CA429F637D500B4FA15 /* Graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Graph.c; sourceTree = "<group>"; };
+		3D662CA629F6380700B4FA15 /* PriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
+		3D662CA729F6380700B4FA15 /* PriorityQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PriorityQueue.c; sourceTree = "<group>"; };
+		3D662CA929F63B5A00B4FA15 /* Test_ShortestPath.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_ShortestPath.c; sourceTree = "<group>"; };
 		3D6FCF1A29DAA5DA0051DBFA /* DoublyLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoublyLinkedList.h; sourceTree = "<group>"; };
 		3D6FCF1B29DAA5DA0051DBFA /* DoublyLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DoublyLinkedList.c; sourceTree = "<group>"; };
 		3D6FCF1D29DAA61B0051DBFA /* Test_DoublyLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_DoublyLinkedList.c; sourceTree = "<group>"; };
@@ -71,6 +75,12 @@
 		3DAD6A6E29BE13750021FDF4 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		3DAD6A6F29BE13750021FDF4 /* LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
 		3DAD6A7129BE13B70021FDF4 /* Test_LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_LinkedList.c; sourceTree = "<group>"; };
+		3DC85A8729F8D50F0091697F /* KarpRabin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KarpRabin.h; sourceTree = "<group>"; };
+		3DC85A8829F8D50F0091697F /* KarpRabin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = KarpRabin.c; sourceTree = "<group>"; };
+		3DC85A8A29F8D7D80091697F /* Test_KarpRabin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_KarpRabin.c; sourceTree = "<group>"; };
+		3DC85A8D29F8E16A0091697F /* KnuthMorrisPratt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnuthMorrisPratt.h; sourceTree = "<group>"; };
+		3DC85A8E29F8E16A0091697F /* KnuthMorrisPratt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = KnuthMorrisPratt.c; sourceTree = "<group>"; };
+		3DC85A9029F8E2F80091697F /* Test_KnuthMorrisPratt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_KnuthMorrisPratt.c; sourceTree = "<group>"; };
 		3DD90C3C29EE3CF600C2242A /* GraphTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphTraversal.h; sourceTree = "<group>"; };
 		3DD90C3D29EE3CF600C2242A /* GraphTraversal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GraphTraversal.c; sourceTree = "<group>"; };
 		3DD90C3F29EE3D9A00C2242A /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
@@ -82,6 +92,10 @@
 		3DDFCA1629C9596E00B06361 /* LCRSTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LCRSTree.c; sourceTree = "<group>"; };
 		3DDFCA1829C95CFC00B06361 /* Test_LCRSTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_LCRSTree.c; sourceTree = "<group>"; };
 		3DDFCA1E29C968FD00B06361 /* recursiveCall.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = recursiveCall.c; sourceTree = "<group>"; };
+		3DEF080129F786BB00E3BBC3 /* BruteForce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BruteForce.h; sourceTree = "<group>"; };
+		3DEF080229F786BB00E3BBC3 /* BruteForce.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BruteForce.c; sourceTree = "<group>"; };
+		3DEF080429F7899100E3BBC3 /* kjv.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kjv.txt; sourceTree = "<group>"; };
+		3DEF080529F789D200E3BBC3 /* Test_BruteForce.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_BruteForce.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +173,20 @@
 			path = BinaryTree;
 			sourceTree = "<group>";
 		};
+		3D662C9F29F636F200B4FA15 /* ShortesPath */ = {
+			isa = PBXGroup;
+			children = (
+				3D662CA029F6371700B4FA15 /* ShortesPath.h */,
+				3D662CA129F6371700B4FA15 /* ShortesPath.c */,
+				3D662CA329F637D500B4FA15 /* Graph.h */,
+				3D662CA429F637D500B4FA15 /* Graph.c */,
+				3D662CA629F6380700B4FA15 /* PriorityQueue.h */,
+				3D662CA729F6380700B4FA15 /* PriorityQueue.c */,
+				3D662CA929F63B5A00B4FA15 /* Test_ShortestPath.c */,
+			);
+			path = ShortesPath;
+			sourceTree = "<group>";
+		};
 		3D6FCF1929DAA5950051DBFA /* DoublySequentialSearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +257,10 @@
 		3DAD6A5B29BE132E0021FDF4 = {
 			isa = PBXGroup;
 			children = (
+				3DC85A8C29F8E1440091697F /* KnuthMorrisPratt */,
+				3DC85A8629F8D4F00091697F /* KarpRabin */,
+				3DEF080029F7841500E3BBC3 /* BruteForce */,
+				3D662C9F29F636F200B4FA15 /* ShortesPath */,
 				3D73BE5629F124B800B39332 /* MinimumSpanningTree */,
 				3DD90C3B29EE3CD200C2242A /* GraphTraversal */,
 				3D42FAE829ED64CB0098FF17 /* Graph_array */,
@@ -268,6 +300,26 @@
 			path = hamster;
 			sourceTree = "<group>";
 		};
+		3DC85A8629F8D4F00091697F /* KarpRabin */ = {
+			isa = PBXGroup;
+			children = (
+				3DC85A8729F8D50F0091697F /* KarpRabin.h */,
+				3DC85A8829F8D50F0091697F /* KarpRabin.c */,
+				3DC85A8A29F8D7D80091697F /* Test_KarpRabin.c */,
+			);
+			path = KarpRabin;
+			sourceTree = "<group>";
+		};
+		3DC85A8C29F8E1440091697F /* KnuthMorrisPratt */ = {
+			isa = PBXGroup;
+			children = (
+				3DC85A8D29F8E16A0091697F /* KnuthMorrisPratt.h */,
+				3DC85A8E29F8E16A0091697F /* KnuthMorrisPratt.c */,
+				3DC85A9029F8E2F80091697F /* Test_KnuthMorrisPratt.c */,
+			);
+			path = KnuthMorrisPratt;
+			sourceTree = "<group>";
+		};
 		3DD90C3B29EE3CD200C2242A /* GraphTraversal */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +350,17 @@
 				3DDFCA1E29C968FD00B06361 /* recursiveCall.c */,
 			);
 			path = recursiveCall;
+			sourceTree = "<group>";
+		};
+		3DEF080029F7841500E3BBC3 /* BruteForce */ = {
+			isa = PBXGroup;
+			children = (
+				3DEF080129F786BB00E3BBC3 /* BruteForce.h */,
+				3DEF080429F7899100E3BBC3 /* kjv.txt */,
+				3DEF080229F786BB00E3BBC3 /* BruteForce.c */,
+				3DEF080529F789D200E3BBC3 /* Test_BruteForce.c */,
+			);
+			path = BruteForce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,11 +420,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D73BE6429F135EE00B39332 /* DisjointSet.c in Sources */,
-				3D73BE6129F1346D00B39332 /* Graph.c in Sources */,
-				3D73BE5B29F12D3900B39332 /* Test_MST.c in Sources */,
-				3D73BE5E29F1344700B39332 /* PriorityQueue.c in Sources */,
-				3D73BE5929F124DF00B39332 /* MST.c in Sources */,
+				3DC85A9129F8E2F80091697F /* Test_KnuthMorrisPratt.c in Sources */,
+				3DC85A8F29F8E16A0091697F /* KnuthMorrisPratt.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +540,7 @@
 		3DAD6A6C29BE132E0021FDF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
