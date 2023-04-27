@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DC85A8F29F8E16A0091697F /* KnuthMorrisPratt.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DC85A8E29F8E16A0091697F /* KnuthMorrisPratt.c */; };
-		3DC85A9129F8E2F80091697F /* Test_KnuthMorrisPratt.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DC85A9029F8E2F80091697F /* Test_KnuthMorrisPratt.c */; };
+		3D47814B29FA2D2E001CECB5 /* MergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47814A29FA2D2E001CECB5 /* MergeSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +35,7 @@
 		3D2ED22729C075BC004DE1E1 /* ArrayStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayStack.c; sourceTree = "<group>"; };
 		3D2ED22929C0794C004DE1E1 /* Test_ArrayStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_ArrayStack.c; sourceTree = "<group>"; };
 		3D42FAE929ED64EF0098FF17 /* Test_Graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_Graph.c; sourceTree = "<group>"; };
+		3D47814A29FA2D2E001CECB5 /* MergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeSort.c; sourceTree = "<group>"; };
 		3D53F00429CAEC4300B43F03 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		3D53F00529CAEC4300B43F03 /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTree.c; sourceTree = "<group>"; };
 		3D53F00729CAEF6000B43F03 /* Test_BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_BinaryTree.c; sourceTree = "<group>"; };
@@ -163,6 +163,14 @@
 			path = Graph_array;
 			sourceTree = "<group>";
 		};
+		3D47814929FA2D11001CECB5 /* MergeSort */ = {
+			isa = PBXGroup;
+			children = (
+				3D47814A29FA2D2E001CECB5 /* MergeSort.c */,
+			);
+			path = MergeSort;
+			sourceTree = "<group>";
+		};
 		3D53F00329CAEC2200B43F03 /* BinaryTree */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +265,7 @@
 		3DAD6A5B29BE132E0021FDF4 = {
 			isa = PBXGroup;
 			children = (
+				3D47814929FA2D11001CECB5 /* MergeSort */,
 				3DC85A8C29F8E1440091697F /* KnuthMorrisPratt */,
 				3DC85A8629F8D4F00091697F /* KarpRabin */,
 				3DEF080029F7841500E3BBC3 /* BruteForce */,
@@ -420,8 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC85A9129F8E2F80091697F /* Test_KnuthMorrisPratt.c in Sources */,
-				3DC85A8F29F8E16A0091697F /* KnuthMorrisPratt.c in Sources */,
+				3D47814B29FA2D2E001CECB5 /* MergeSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
