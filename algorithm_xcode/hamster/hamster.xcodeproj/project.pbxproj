@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D47814B29FA2D2E001CECB5 /* MergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D47814A29FA2D2E001CECB5 /* MergeSort.c */; };
+		3D49438E29FB822F00310FE8 /* FibonacciDnc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D49438D29FB822F00310FE8 /* FibonacciDnc.c */; };
+		3DAF56D329FB9B4100ADDB11 /* Huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF56D229FB9B4100ADDB11 /* Huffman.c */; };
+		3DAF56D629FB9B7700ADDB11 /* PriorityQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF56D529FB9B7700ADDB11 /* PriorityQueue.c */; };
+		3DAF56D829FBAAC400ADDB11 /* Test_Huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF56D729FBAAC400ADDB11 /* Test_Huffman.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +39,8 @@
 		3D2ED22929C0794C004DE1E1 /* Test_ArrayStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_ArrayStack.c; sourceTree = "<group>"; };
 		3D42FAE929ED64EF0098FF17 /* Test_Graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_Graph.c; sourceTree = "<group>"; };
 		3D47814A29FA2D2E001CECB5 /* MergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeSort.c; sourceTree = "<group>"; };
+		3D49438929FB781100310FE8 /* FastExponentiation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FastExponentiation.c; sourceTree = "<group>"; };
+		3D49438D29FB822F00310FE8 /* FibonacciDnc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FibonacciDnc.c; sourceTree = "<group>"; };
 		3D53F00429CAEC4300B43F03 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		3D53F00529CAEC4300B43F03 /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTree.c; sourceTree = "<group>"; };
 		3D53F00729CAEF6000B43F03 /* Test_BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_BinaryTree.c; sourceTree = "<group>"; };
@@ -75,6 +80,11 @@
 		3DAD6A6E29BE13750021FDF4 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		3DAD6A6F29BE13750021FDF4 /* LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
 		3DAD6A7129BE13B70021FDF4 /* Test_LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_LinkedList.c; sourceTree = "<group>"; };
+		3DAF56D129FB9B4100ADDB11 /* Huffman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Huffman.h; sourceTree = "<group>"; };
+		3DAF56D229FB9B4100ADDB11 /* Huffman.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Huffman.c; sourceTree = "<group>"; };
+		3DAF56D429FB9B7700ADDB11 /* PriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
+		3DAF56D529FB9B7700ADDB11 /* PriorityQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PriorityQueue.c; sourceTree = "<group>"; };
+		3DAF56D729FBAAC400ADDB11 /* Test_Huffman.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_Huffman.c; sourceTree = "<group>"; };
 		3DC85A8729F8D50F0091697F /* KarpRabin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KarpRabin.h; sourceTree = "<group>"; };
 		3DC85A8829F8D50F0091697F /* KarpRabin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = KarpRabin.c; sourceTree = "<group>"; };
 		3DC85A8A29F8D7D80091697F /* Test_KarpRabin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_KarpRabin.c; sourceTree = "<group>"; };
@@ -171,6 +181,22 @@
 			path = MergeSort;
 			sourceTree = "<group>";
 		};
+		3D49438829FB77E500310FE8 /* FastExponentiation */ = {
+			isa = PBXGroup;
+			children = (
+				3D49438929FB781100310FE8 /* FastExponentiation.c */,
+			);
+			path = FastExponentiation;
+			sourceTree = "<group>";
+		};
+		3D49438C29FB820800310FE8 /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				3D49438D29FB822F00310FE8 /* FibonacciDnc.c */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
 		3D53F00329CAEC2200B43F03 /* BinaryTree */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +291,9 @@
 		3DAD6A5B29BE132E0021FDF4 = {
 			isa = PBXGroup;
 			children = (
+				3DAF56D029FB9B2400ADDB11 /* Huffman */,
+				3D49438C29FB820800310FE8 /* Fibonacci */,
+				3D49438829FB77E500310FE8 /* FastExponentiation */,
 				3D47814929FA2D11001CECB5 /* MergeSort */,
 				3DC85A8C29F8E1440091697F /* KnuthMorrisPratt */,
 				3DC85A8629F8D4F00091697F /* KarpRabin */,
@@ -307,6 +336,18 @@
 				3DAD6A6F29BE13750021FDF4 /* LinkedList.c */,
 			);
 			path = hamster;
+			sourceTree = "<group>";
+		};
+		3DAF56D029FB9B2400ADDB11 /* Huffman */ = {
+			isa = PBXGroup;
+			children = (
+				3DAF56D129FB9B4100ADDB11 /* Huffman.h */,
+				3DAF56D229FB9B4100ADDB11 /* Huffman.c */,
+				3DAF56D429FB9B7700ADDB11 /* PriorityQueue.h */,
+				3DAF56D529FB9B7700ADDB11 /* PriorityQueue.c */,
+				3DAF56D729FBAAC400ADDB11 /* Test_Huffman.c */,
+			);
+			path = Huffman;
 			sourceTree = "<group>";
 		};
 		3DC85A8629F8D4F00091697F /* KarpRabin */ = {
@@ -429,7 +470,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D47814B29FA2D2E001CECB5 /* MergeSort.c in Sources */,
+				3D49438E29FB822F00310FE8 /* FibonacciDnc.c in Sources */,
+				3DAF56D629FB9B7700ADDB11 /* PriorityQueue.c in Sources */,
+				3DAF56D329FB9B4100ADDB11 /* Huffman.c in Sources */,
+				3DAF56D829FBAAC400ADDB11 /* Test_Huffman.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
