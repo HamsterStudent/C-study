@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D1E9B6729FF6B8000C8A64F /* LCSDP.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E9B6629FF6B8000C8A64F /* LCSDP.c */; };
+		3D4BA6ED2A00B2D70004BCEE /* MakingChange.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BA6EC2A00B2D70004BCEE /* MakingChange.c */; };
+		3D4BA6F02A00C44D0004BCEE /* Test_MakingChange.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BA6EE2A00B3150004BCEE /* Test_MakingChange.c */; };
+		3D4BA6F12A00C5330004BCEE /* Huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF56D229FB9B4100ADDB11 /* Huffman.c */; };
+		3D4BA6F22A00C5360004BCEE /* PriorityQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF56D529FB9B7700ADDB11 /* PriorityQueue.c */; };
+		3D4BA6F32A00C53A0004BCEE /* Test_Huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF56D729FBAAC400ADDB11 /* Test_Huffman.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +44,9 @@
 		3D47814A29FA2D2E001CECB5 /* MergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeSort.c; sourceTree = "<group>"; };
 		3D49438929FB781100310FE8 /* FastExponentiation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FastExponentiation.c; sourceTree = "<group>"; };
 		3D49438D29FB822F00310FE8 /* FibonacciDnc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FibonacciDnc.c; sourceTree = "<group>"; };
+		3D4BA6EB2A00B2D70004BCEE /* MakingChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakingChange.h; sourceTree = "<group>"; };
+		3D4BA6EC2A00B2D70004BCEE /* MakingChange.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MakingChange.c; sourceTree = "<group>"; };
+		3D4BA6EE2A00B3150004BCEE /* Test_MakingChange.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_MakingChange.c; sourceTree = "<group>"; };
 		3D53F00429CAEC4300B43F03 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		3D53F00529CAEC4300B43F03 /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTree.c; sourceTree = "<group>"; };
 		3D53F00729CAEF6000B43F03 /* Test_BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_BinaryTree.c; sourceTree = "<group>"; };
@@ -212,6 +219,16 @@
 			path = Fibonacci;
 			sourceTree = "<group>";
 		};
+		3D4BA6EA2A00B2BF0004BCEE /* MakingChange */ = {
+			isa = PBXGroup;
+			children = (
+				3D4BA6EB2A00B2D70004BCEE /* MakingChange.h */,
+				3D4BA6EC2A00B2D70004BCEE /* MakingChange.c */,
+				3D4BA6EE2A00B3150004BCEE /* Test_MakingChange.c */,
+			);
+			path = MakingChange;
+			sourceTree = "<group>";
+		};
 		3D53F00329CAEC2200B43F03 /* BinaryTree */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +323,7 @@
 		3DAD6A5B29BE132E0021FDF4 = {
 			isa = PBXGroup;
 			children = (
+				3D4BA6EA2A00B2BF0004BCEE /* MakingChange */,
 				3D1E9B6529FF6B6000C8A64F /* LCSDP */,
 				3D1E9B6229FF64DD00C8A64F /* FibonacciDP */,
 				3DAF56D029FB9B2400ADDB11 /* Huffman */,
@@ -487,7 +505,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1E9B6729FF6B8000C8A64F /* LCSDP.c in Sources */,
+				3D4BA6F02A00C44D0004BCEE /* Test_MakingChange.c in Sources */,
+				3D4BA6ED2A00B2D70004BCEE /* MakingChange.c in Sources */,
+				3D4BA6F32A00C53A0004BCEE /* Test_Huffman.c in Sources */,
+				3D4BA6F12A00C5330004BCEE /* Huffman.c in Sources */,
+				3D4BA6F22A00C5360004BCEE /* PriorityQueue.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

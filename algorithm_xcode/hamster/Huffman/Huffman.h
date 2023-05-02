@@ -11,23 +11,32 @@
 typedef unsigned int UINT;
 typedef unsigned char UCHAR;
 
+// 빈도수 기록
 typedef struct TagSymbolInfo{
     UCHAR Symbol;
+    // 빈도수 저장
     int Frequency;
 }SymbolInfo;
 
+
 typedef struct TagHuffmanNode{
+    //심볼(문자모양에 대한 빈도수)
     SymbolInfo Data;
+    // 왼쪽자식
     struct TagHuffmanNode* Left;
+    // 오른쪽자식
     struct TagHuffmanNode* Right;
 }HuffmanNode;
 
+// 인코딩할때 비트값 저장
 typedef struct TagBitBuffer{
     UCHAR* Buffer;
     UINT Size;
 }BitBuffer;
 
+// 문자 모양에 대한 비트값 저장
 typedef struct TagHuffmanCode{
+    // 문자형태로 저장됨
     UCHAR Code[MAX_BIT];
     int Size;
 }HuffmanCode;
