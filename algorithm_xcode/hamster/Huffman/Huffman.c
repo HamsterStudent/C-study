@@ -26,20 +26,31 @@ void Huffman_DestroyTree(HuffmanNode* Node){
 void Huffman_Huffman_AddBit(BitBuffer* Buffer, char Bit){
     UCHAR Mask = 0x80; // 1000 0000
     
+    // 저장할 공간이 없다는 뜻 : 저장할 공간을 만들어줌
     if(Buffer->Size % 8 == 0){
+        // 버퍼에 동적으로 만들어진 사이즈가 붙음
         Buffer->Buffer =
+        // realloc으로 재할당
         realloc(Buffer->Buffer, sizeof(UCHAR) * ((Buffer->Size / 8) + 1) );
         // 공간의 값 0으로 초기화
         Buffer->Buffer[Buffer->Size / 8] = 0x00;
     }
+    // 마스크비트를 오른쪽으로 이동(모든 비트값 오른쪽으로 이동)
+    // 비트연산자 : 넘어간 비트 제거되고 빈 공간은 0으로 메움
     Mask >>= Buffer->Size % 8;
     
     if(Bit == 1)
+        // 마스크 온
+        // |= 연산 : 비트가 하나라도 1이면 1
         Buffer->Buffer[Buffer->Size / 8] |= Mask;
     else
         // mask값을 부정
+        // 마스크 오프
+        // &= 연산 : 비트가 둘다 1이어야 1
         Buffer->Buffer[Buffer->Size / 8] &= ~Mask;
-    // 1000 0000를 0111 1111로
+    // 1000 0000를 0111 1111로 (~mask)
+    // 0000 0000
+    
     Buffer->Size++;
 }
 
@@ -133,7 +144,7 @@ void Huffman_BuildPrefixTree(HuffmanNode** Tree, SymbolInfo SymbolInfoTable[MAX_
     // 트리에 집어넣음
     *Tree = (HuffmanNode*)Result.Data;
 }
-
+// AABBAABCC (00111100 111010으로 압축됨)
 void Huffman_Encode(HuffmanNode** Tree, UCHAR* Source, BitBuffer* Encoded, HuffmanCode CodeTable[MAX_CHAR]){
     int i = 0, j = 0;
     // 빈도수를 저장하기 위해 만들어짐. 빈도수 초기화
@@ -166,6 +177,7 @@ void Huffman_Encode(HuffmanNode** Tree, UCHAR* Source, BitBuffer* Encoded, Huffm
         // 할당된 비트 갯수를 가져옴(size)
         int BitCount = CodeTable[Source[i]].Size;
         for(j = 0; j < BitCount; j++)
+            // 버퍼의 주소값,
             Huffman_Huffman_AddBit(Encoded, CodeTable[Source[i]].Code[j]);
         i++;
     }
@@ -174,19 +186,32 @@ void Huffman_Encode(HuffmanNode** Tree, UCHAR* Source, BitBuffer* Encoded, Huffm
 void Huffman_Decode(HuffmanNode* Tree, BitBuffer* Encoded, UCHAR* Decoded){
     int i;
     int Index = 0;
+    // 루트노드의 주소값 저장
     HuffmanNode* Current = Tree;
     
+    // 인코드 사이즈(14)
     for(i = 0; i <= Encoded->Size; i++){
+        // mask비트를 만듬
         UCHAR Mask = 0x80;
+        // 리프노드라면
         if(Current->Left == NULL && Current->Right == NULL){
+            // index에 값 삽입
             Decoded[Index++] = Current->Data.Symbol;
+            // current를 루트로 만듬
             Current = Tree;
         }
         Mask >>= i % 8;
         
+        // 0011 1100
+        // 0100 0000
+        // 0000 0000
+        
+        // 버퍼에 있는 것과 mask비트를 and연산
         if((Encoded->Buffer[i/8] & Mask) != Mask)
+            // 왼쪽에 있는 노드로 이동
             Current = Current->Left;
         else
+            // 오른쪽에 있는 노드로 이동
             Current = Current->Right;
     }
     Decoded[Index] = '\0';
