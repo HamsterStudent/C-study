@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0224_malloc", "0224_malloc\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0224_malloc_struct", "0224_malloc_struct\0224_malloc_struct.vcxproj", "{3A161ABC-F2A3-4040-BF69-5B2A5F915BA6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0327_LinkedList", "0327_LinkedList\0327_LinkedList.vcxproj", "{5299158D-AAA4-41BA-8A7E-0173C3C876E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{3A161ABC-F2A3-4040-BF69-5B2A5F915BA6}.Release|x64.Build.0 = Release|x64
 		{3A161ABC-F2A3-4040-BF69-5B2A5F915BA6}.Release|x86.ActiveCfg = Release|Win32
 		{3A161ABC-F2A3-4040-BF69-5B2A5F915BA6}.Release|x86.Build.0 = Release|Win32
+		{5299158D-AAA4-41BA-8A7E-0173C3C876E6}.Debug|x64.ActiveCfg = Debug|x64
+		{5299158D-AAA4-41BA-8A7E-0173C3C876E6}.Debug|x64.Build.0 = Debug|x64
+		{5299158D-AAA4-41BA-8A7E-0173C3C876E6}.Debug|x86.ActiveCfg = Debug|Win32
+		{5299158D-AAA4-41BA-8A7E-0173C3C876E6}.Debug|x86.Build.0 = Debug|Win32
+		{5299158D-AAA4-41BA-8A7E-0173C3C876E6}.Release|x64.ActiveCfg = Release|x64
+		{5299158D-AAA4-41BA-8A7E-0173C3C876E6}.Release|x64.Build.0 = Release|x64
+		{5299158D-AAA4-41BA-8A7E-0173C3C876E6}.Release|x86.ActiveCfg = Release|Win32
+		{5299158D-AAA4-41BA-8A7E-0173C3C876E6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

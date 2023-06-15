@@ -4,7 +4,8 @@
 int main() {
 	// malloc, calloc, realoc(동적메모리 할당함수) / new(객체지향)
 	// free (동적메모리 반납함수)
-
+	// (int*) : malloc의 반환형이 void* 이므로 형변환 요청한것임
+	// malloc(바이트)
 	int* pa = (int*)malloc(4);
 	// malloc(sizeof(4))
 
